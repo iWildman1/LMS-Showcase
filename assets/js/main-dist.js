@@ -1,0 +1,1 @@
+"use strict";function handleTabClick(t){var e=document.querySelector(".tab-active");e&&(e.classList.remove("tab-active"),t.classList.add("tab-active"))}!function(){var t=document.querySelectorAll(".btn-tab");if(t)for(var e=0;e<t.length;e++)t[e].addEventListener("click",function(){handleTabClick(this)})}();
